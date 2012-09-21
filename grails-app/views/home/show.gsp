@@ -1,4 +1,3 @@
-
 <html>
 <head>
 	<g:if test="${!request.xhr}">

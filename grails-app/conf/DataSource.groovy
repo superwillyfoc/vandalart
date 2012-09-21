@@ -1,9 +1,9 @@
 dataSource {
     pooled = true
     driverClassName = "com.mysql.jdbc.Driver"
-    username = "vandalart"
-    password = "vandalartpass"
-    url = "jdbc:mysql://ec2-50-19-213-178.compute-1.amazonaws.com/vandalart?autoReconnect=true"
+    username = "root"
+    password = ""
+    url = "jdbc:mysql://localhost/scifeinstagram?autoReconnect=true"
 }
 hibernate {
     cache.use_second_level_cache = true

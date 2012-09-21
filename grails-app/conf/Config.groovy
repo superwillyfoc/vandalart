@@ -93,7 +93,9 @@ log4j = {
            'net.sf.ehcache.hibernate'
 }
 
-google.analytics.webPropertyID = "UA-918753-9"
+grails.config.locations = [ "classpath:app-config.properties"]
+
+//google.analytics.webPropertyID = "UA-918753-9"
 
 //grails.'redis-gorm'.host="78.47.187.88"
 //grails.'redis-gorm'.password="vodka"

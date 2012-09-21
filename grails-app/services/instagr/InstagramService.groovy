@@ -5,7 +5,7 @@ import groovy.json.JsonSlurper
 class InstagramService {
 
     def pullData(tag){
-        def clientId = "f5388b6c7b7140adb6f1893af465237f"
+        def clientId = "a157593fa20a4fb8a1e5ee4d07c8926f"
         def url = "https://api.instagram.com/v1/tags/${tag}/media/recent?client_id=${clientId}"
         def data = new URL(url).getText()
         def slurper = new JsonSlurper()
@@ -24,7 +24,7 @@ class InstagramService {
                         //bio: it.user.bio,
                         website: it.user.website,
                         profile: it.user.profile_picture,
-                        //description: description,
+                        description: description,
                         createdTime: it.caption?.created_time,
                         instagram: it.link)
                 if(it.location){

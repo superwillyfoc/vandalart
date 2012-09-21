@@ -1,3 +1,4 @@
+/grails-app/conf/app-config.properties
 *.iws
 *Db.properties
 *Db.script

@@ -12,7 +12,8 @@
 <div id="dialog"></div>
 
 	<br/><br/>
-			<a href="https://twitter.com/share" class="twitter-share-button" data-lang="en" data-url="http://vandalart.org" data-text="Vandal Art Map" data-hashtags="UrbanArt">Tweet</a> <div class="fb-like" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false"></div>
+	
+	<a href="https://twitter.com/share" class="twitter-share-button" data-lang="en" data-url="http://vandalart.org" data-text="Vandal Art Map" data-hashtags="UrbanArt">Tweet</a> <div class="fb-like" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false"></div>
 
 	<br/>
 	<strong>${total} photos</strong>
