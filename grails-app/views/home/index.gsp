@@ -1,21 +1,26 @@
 <html>
 <head>
 	<meta name='layout' content='main'/>
+	<title>Concurso de Instagram "El cine" | SCIFE</title>
+	<meta name='description' content='Todas las fotografías detectadas para el concurso de Instagram, organizado por la Semana del Cine y la Imagen de Fuentes de Ebro (SCIFE)'/>
+	
 </head>
 
 <body>
-	<g:link action="map" title="Go to the map"> Last 50 urban art photos in the world at instagram</g:link><br/><br/>
+	<nav>
+		<ul class="content_nav">
+			<li class="active"><g:link action="index">Verlas en el listado</g:link></li>
+			<li><g:link action="map" title="Ver en el mapa">Ver las fotos en el mapa</g:link></li>
+		</ul>
+		<div class="que_es">
+			<span>Descubiertas ${total} fotos en total.</span><a href="#">¿Qué es todo esto?</a>
+		</div>
+		<div class="clear"></div>
+	</nav>
+	
 	<div id="list">
 		<g:render template="list"/>
 	</div>
-
-<div id="dialog"></div>
-
-	<br/><br/>
 	
-	<a href="https://twitter.com/share" class="twitter-share-button" data-lang="en" data-url="http://vandalart.org" data-text="Vandal Art Map" data-hashtags="UrbanArt">Tweet</a> <div class="fb-like" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false"></div>
-
-	<br/>
-	<strong>${total} photos</strong>
 </body>
 </html>
